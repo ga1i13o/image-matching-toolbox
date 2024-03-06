@@ -8,3 +8,6 @@
 [submodule "third_party/patch2pix"]
 	path = third_party/patch2pix
 	url = https://github.com/GrumpyZhou/patch2pix
+[submodule "third_party/d2net"]
+	path = third_party/d2net
+	url = https://github.com/ga1i13o/d2-net
