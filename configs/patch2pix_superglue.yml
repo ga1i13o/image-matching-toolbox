@@ -1,6 +1,7 @@
 default: &default
     class: 'Patch2PixRefined'
     ckpt: 'pretrained/patch2pix/patch2pix_pretrained.pth'
+    ncn_ckpt: 'pretrained/patch2pix/ncn_ivd_5ep.pth'
     imsize: 1024
 coarse_default: &coarse_default
     name: 'SuperGlue'
