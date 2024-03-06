@@ -1,6 +1,7 @@
 default: &default
     class: 'Patch2Pix'
     ckpt: 'pretrained/patch2pix/patch2pix_pretrained.pth'
+    ncn_ckpt: 'pretrained/patch2pix/ncn_ivd_5ep.pth'
     ksize: 2
     imsize: 1024
     match_threshold: 0.25
